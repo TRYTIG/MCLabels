@@ -1,0 +1,10 @@
+name: Labels
+version: '${version}'
+main: com.trytheitguy.labels.Labels
+api-version: 1.19
+authors: [ Sip5060 ]
+description: Label your world with head textures, blocks and items or just plain old text.
+website: "https://github.com/TRYTIG/LabelsPlugin"
+commands:
+  labels:
+    description: "Labels Command"

@@ -1,0 +1,24 @@
+# Whether the plugin is enabled or not. Default false.
+enabled: false
+labels:
+  # Label ID/name. This must be unique.
+  "example_spawn_text":
+    # Type:
+    #   The valid types are: TEXT, TEXT_WITH_HEAD, TEXT_WITH_MATERIAL
+    #   When either TEXT_WITH_HEAD or TEXT_WITH_MATERIAL are used, a "data" field is required otherwise it can be excluded or left null.
+    #   When using TEXT_WITH_MATERIAL, the data field must be a valid Bukkit Material. (list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+    #   When using TEXT_WITH_HEAD, the data field must be a valid base64 texture. You can get these textures from popular head databases online.
+    type: TEXT_WITH_HEAD
+    data: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ4NDNlYTVmZTA5MzMxNWQ4YjNmNDAxNWIyYTZjMmNjMjNhZTUyZThhYWIxNDczYmJmMmY2MjM1NDJmNTI1YiJ9fX0="
+    # Location of the label
+    world: "world"
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    # Label text
+    #   For a label to appear in the world, you must have at least one line of text (even if it is blank).
+    #   When using TEXT_WITH_HEAD or TEXT_WITH_MATERIAL, the first line will appear above the head/material being displayed.
+    #   Every text entry after the first will be displayed underneath the head/material.
+    text:
+      - "&bWelcome to &9Server"
+      - "This is an example label"
